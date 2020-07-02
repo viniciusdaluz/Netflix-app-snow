@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Reviews" max_length="40" name="x_484602_netflix_reviews" sizeclass="25" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Review" max_length="4000" name="avaliacao" type="string"/>
+        <element label="Creator" max_length="32" name="criador" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Movie" max_length="32" name="filme" reference="x_484602_netflix_filmes" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Reprovation Reason" max_length="4000" name="motivo_reprovacao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="10" label="Rate" max_length="40" name="nota" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aprovado" value="100"/>
+                <element inactive_on_update="false" label="Reprovado" value="200"/>
+            </choice>
+        </element>
+    </element>
+</database>

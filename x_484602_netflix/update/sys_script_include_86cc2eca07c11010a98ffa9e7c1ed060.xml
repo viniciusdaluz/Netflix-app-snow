@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_484602_netflix.netflix_estilo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>netflix_estilo</name>
+        <script><![CDATA[var netflix_estilo = Class.create();
+netflix_estilo.prototype = {
+    initialize: function() {
+    },
+	
+	consultaFilme: function(current){
+		
+		var m = new GlideRecord('x_484602_netflix_filmes');
+		m.addQuery('nome', current.getValue('movie'));
+		m.query();
+		
+		if(m.next()){
+			return true;
+		}
+		return false;
+	},
+
+    type: 'netflix_estilo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 18:27:58</sys_created_on>
+        <sys_id>86cc2eca07c11010a98ffa9e7c1ed060</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>netflix_estilo</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_script_include_86cc2eca07c11010a98ffa9e7c1ed060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 18:29:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

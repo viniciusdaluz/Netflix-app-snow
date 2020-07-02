@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_484602_netflix.filmes_usuarios" name="x_484602_netflix.filmes_usuarios">cc92312f07b01410a98ffa9e7c1ed0c4</contains>
+        <role display_value="x_484602_netflix.filmes_moderador" name="x_484602_netflix.filmes_moderador">489279af07b01410a98ffa9e7c1ed00a</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 14:45:10</sys_created_on>
+        <sys_id>8a84268107811010a98ffa9e7c1ed00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_484602_netflix.filmes_usuarios.x_484602_netflix.filmes_moderador</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_user_role_contains_8a84268107811010a98ffa9e7c1ed00d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 14:45:10</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

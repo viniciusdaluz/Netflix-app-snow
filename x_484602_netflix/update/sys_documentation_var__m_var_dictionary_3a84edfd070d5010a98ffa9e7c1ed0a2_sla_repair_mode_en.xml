@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sla_repair_mode" label="SLA Repair Mode" language="en" table="var__m_var_dictionary_3a84edfd070d5010a98ffa9e7c1ed0a2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sla_repair_mode</element>
+            <help/>
+            <hint/>
+            <label>SLA Repair Mode</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_3a84edfd070d5010a98ffa9e7c1ed0a2</name>
+            <plural>SLA Repair Mode</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-28 18:01:03</sys_created_on>
+            <sys_id>cf84edfd070d5010a98ffa9e7c1ed0d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SLA Repair Mode</sys_name>
+            <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_3a84edfd070d5010a98ffa9e7c1ed0a2_sla_repair_mode_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-28 18:01:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow write for records in x_484602_netflix_reviews, if the ACL script returns true.</description>
+        <name>x_484602_netflix_reviews</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[if((current.user.getValue() == '1f6f460507411010a98ffa9e7c1ed0be')||(current.user.getValue() == 'e160da0507411010a98ffa9e7c1ed01c')) {
+	answer = false;
+} else {
+	motivo_reprovacao = true;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-21 19:59:59</sys_created_on>
+        <sys_id>34acf5eb07f01410a98ffa9e7c1ed09f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_484602_netflix_reviews</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_security_acl_34acf5eb07f01410a98ffa9e7c1ed09f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 11:23:47</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</application>
+        <file_path/>
+        <instance_id>994d76f2db87f344387021c405961949</instance_id>
+        <instance_name>dev90984</instance_name>
+        <name>sys_security_acl_34acf5eb07f01410a98ffa9e7c1ed09f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow write for records in x_484602_netflix_reviews, if the ACL script returns true.&lt;/description&gt;&lt;name&gt;x_484602_netflix_reviews&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[if((current.user.getValue() == '1f6f460507411010a98ffa9e7c1ed0be')||(current.user.getValue() == 'e160da0507411010a98ffa9e7c1ed01c')) {
+	answer = false;
+} else {
+	motivo_reprovacao = true;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-21 19:59:59&lt;/sys_created_on&gt;&lt;sys_id&gt;34acf5eb07f01410a98ffa9e7c1ed09f&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_484602_netflix_reviews&lt;/sys_name&gt;&lt;sys_package display_value="Netflix" source="x_484602_netflix"&gt;3712392707f01410a98ffa9e7c1ed0f5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Netflix"&gt;3712392707f01410a98ffa9e7c1ed0f5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_34acf5eb07f01410a98ffa9e7c1ed09f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-27 11:23:47&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1490550763</payload_hash>
+        <record_name>x_484602_netflix_reviews</record_name>
+        <reverted_from/>
+        <source>fb12bd2707f01410a98ffa9e7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 11:23:47</sys_created_on>
+        <sys_id>b100435d070d1010a98ffa9e7c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17255dfc2d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 11:23:47</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>3d00435db40d1010c63b4aaa195d5252</update_guid>
+        <update_guid_history>3d00435db40d1010c63b4aaa195d5252:1490550763,33cfbe1d660d10101a5b127b29fdf775:1642997134,968ffed9c40d1010340bfc1bdb29377b:1535051949,606e3ad9cb0d101022869a4eed0e89b7:-1730349268,fd4efad9010d101048fbb9b5a7c279c1:914967631,b4adf2d9df0d1010204fb4234feb60d6:1892164799,11bf57c5aa0510105f7979b8df6241bf:1791109527,74acf5eb55f01410871ca44ab980e0a1:-290000172</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 12:28:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>64016edea6c649aeae0b0d0b793e7ac1</sys_id>
+        <sys_metadata>34acf5eb07f01410a98ffa9e7c1ed09f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_484602_netflix_reviews</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_parent display_value="x_484602_netflix_reviews">139cb5eb07f01410a98ffa9e7c1ed021</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_scope_delete display_value="">090be27f0a4b4b80ae9bb47edbcdc990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_34acf5eb07f01410a98ffa9e7c1ed09f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_34acf5eb07f01410a98ffa9e7c1ed09f">b100435d070d1010a98ffa9e7c1ed053</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 12:28:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

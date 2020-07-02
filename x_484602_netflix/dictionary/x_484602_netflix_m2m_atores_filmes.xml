@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Netflix M2m Atores Filmes" max_length="40" name="x_484602_netflix_m2m_atores_filmes" sizeclass="60" type="collection">
+        <element attributes="encode_utf8=false" label="Atores" max_length="32" name="atores" reference="x_484602_netflix_atores" type="reference"/>
+        <element attributes="encode_utf8=false" label="Filmes" max_length="32" name="filmes" reference="x_484602_netflix_filmes" type="reference"/>
+        <index name="index">
+            <element name="atores"/>
+        </index>
+        <index name="index2">
+            <element name="filmes"/>
+        </index>
+    </element>
+</database>

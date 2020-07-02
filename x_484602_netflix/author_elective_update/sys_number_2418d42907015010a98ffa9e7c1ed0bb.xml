@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_484602_netflix_sugestions">x_484602_netflix_sugestions</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SUG</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 17:48:27</sys_created_on>
+        <sys_id>2418d42907015010a98ffa9e7c1ed0bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SUG</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_number_2418d42907015010a98ffa9e7c1ed0bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 17:48:27</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</application>
+        <file_path/>
+        <instance_id>994d76f2db87f344387021c405961949</instance_id>
+        <instance_name>dev90984</instance_name>
+        <name>sys_number_2418d42907015010a98ffa9e7c1ed0bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_484602_netflix_sugestions">x_484602_netflix_sugestions</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>SUG</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-27 17:48:27</sys_created_on><sys_id>2418d42907015010a98ffa9e7c1ed0bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SUG</sys_name><sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package><sys_policy/><sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope><sys_update_name>sys_number_2418d42907015010a98ffa9e7c1ed0bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-27 17:48:27</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1758894499</payload_hash>
+        <record_name>SUG</record_name>
+        <reverted_from/>
+        <source>fb12bd2707f01410a98ffa9e7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 17:48:27</sys_created_on>
+        <sys_id>7c18d42907015010a98ffa9e7c1ed0dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172573ff1550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 17:48:27</sys_updated_on>
+        <type>Number</type>
+        <update_guid>b418d42926015010d115b3384c9c7cdc</update_guid>
+        <update_guid_history>b418d42926015010d115b3384c9c7cdc:1758894499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 18:58:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>48da6c90181348cf9b1fd0b80ea0fce1</sys_id>
+        <sys_metadata>2418d42907015010a98ffa9e7c1ed0bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SUG</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_parent display_value="">17a3d86507015010a98ffa9e7c1ed03a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_scope_delete display_value="">090be27f0a4b4b80ae9bb47edbcdc990</sys_scope_delete>
+        <sys_update_name>sys_number_2418d42907015010a98ffa9e7c1ed0bb</sys_update_name>
+        <sys_update_version display_value="sys_number_2418d42907015010a98ffa9e7c1ed0bb">7c18d42907015010a98ffa9e7c1ed0dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:58:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

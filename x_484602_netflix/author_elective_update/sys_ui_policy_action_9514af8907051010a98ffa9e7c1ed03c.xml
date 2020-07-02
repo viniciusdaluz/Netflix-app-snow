@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>motivo_reprovacao</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 19:23:04</sys_created_on>
+        <sys_id>9514af8907051010a98ffa9e7c1ed03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>motivo_reprovacao</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9514af8907051010a98ffa9e7c1ed03c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 19:23:04</sys_updated_on>
+        <table>x_484602_netflix_reviews</table>
+        <ui_policy display_value="Habilitar motivo da reprovação">75e3eb8907051010a98ffa9e7c1ed042</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</application>
+        <file_path/>
+        <instance_id>994d76f2db87f344387021c405961949</instance_id>
+        <instance_name>dev90984</instance_name>
+        <name>sys_ui_policy_action_9514af8907051010a98ffa9e7c1ed03c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>motivo_reprovacao</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-26 19:23:04</sys_created_on><sys_id>9514af8907051010a98ffa9e7c1ed03c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>motivo_reprovacao</sys_name><sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package><sys_policy/><sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope><sys_update_name>sys_ui_policy_action_9514af8907051010a98ffa9e7c1ed03c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-26 19:23:04</sys_updated_on><table>x_484602_netflix_reviews</table><ui_policy display_value="Habilitar motivo da reprovação">75e3eb8907051010a98ffa9e7c1ed042</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1068918194</payload_hash>
+        <record_name>motivo_reprovacao</record_name>
+        <reverted_from/>
+        <source>fb12bd2707f01410a98ffa9e7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 19:23:04</sys_created_on>
+        <sys_id>7024af8907051010a98ffa9e7c1ed0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172527032e70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 19:23:04</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b824af89c3051010712284fcff29d4dd</update_guid>
+        <update_guid_history>b824af89c3051010712284fcff29d4dd:-1068918194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 11:28:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>d1c9b366826741c1b8ac26d436683e61</sys_id>
+        <sys_metadata>9514af8907051010a98ffa9e7c1ed03c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>motivo_reprovacao</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_scope_delete display_value="">090be27f0a4b4b80ae9bb47edbcdc990</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_9514af8907051010a98ffa9e7c1ed03c</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_9514af8907051010a98ffa9e7c1ed03c">7024af8907051010a98ffa9e7c1ed0de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 11:28:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

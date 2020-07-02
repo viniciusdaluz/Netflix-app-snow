@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Diretor" max_length="40" name="x_484602_netflix_diretores" sizeclass="13" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Death Date" max_length="40" name="data_de_falecimento" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Birth Date" max_length="40" name="data_de_nascimento" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Nationality" max_length="40" name="nacionalidade" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="250" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Has Oscar" max_length="40" name="tem_oscar" type="boolean"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

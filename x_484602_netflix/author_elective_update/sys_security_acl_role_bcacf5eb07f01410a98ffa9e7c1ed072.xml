@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-21 19:59:58</sys_created_on>
+        <sys_id>bcacf5eb07f01410a98ffa9e7c1ed072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_484602_netflix_reviews.x_484602_netflix.filmes_moderador</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_security_acl display_value="x_484602_netflix_reviews">b0acf5eb07f01410a98ffa9e7c1ed070</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bcacf5eb07f01410a98ffa9e7c1ed072</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-21 19:59:58</sys_updated_on>
+        <sys_user_role display_value="x_484602_netflix.filmes_moderador" name="x_484602_netflix.filmes_moderador">489279af07b01410a98ffa9e7c1ed00a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</application>
+        <file_path/>
+        <instance_id>994d76f2db87f344387021c405961949</instance_id>
+        <instance_name>dev90984</instance_name>
+        <name>sys_security_acl_role_bcacf5eb07f01410a98ffa9e7c1ed072</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-21 19:59:58</sys_created_on><sys_id>bcacf5eb07f01410a98ffa9e7c1ed072</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_484602_netflix_reviews.x_484602_netflix.filmes_moderador</sys_name><sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package><sys_policy/><sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope><sys_security_acl display_value="x_484602_netflix_reviews">b0acf5eb07f01410a98ffa9e7c1ed070</sys_security_acl><sys_update_name>sys_security_acl_role_bcacf5eb07f01410a98ffa9e7c1ed072</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-21 19:59:58</sys_updated_on><sys_user_role display_value="x_484602_netflix.filmes_moderador" name="x_484602_netflix.filmes_moderador">489279af07b01410a98ffa9e7c1ed00a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2036082433</payload_hash>
+        <record_name>x_484602_netflix_reviews.x_484602_netflix.filmes_moderador</record_name>
+        <reverted_from/>
+        <source>fb12bd2707f01410a98ffa9e7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-21 19:59:58</sys_created_on>
+        <sys_id>78acf5eb07f01410a98ffa9e7c1ed075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17238d230f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-21 19:59:58</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b0acf5ebbef01410237a091b63c81375</update_guid>
+        <update_guid_history>b0acf5ebbef01410237a091b63c81375:2036082433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_484602_netflix_reviews.x_484602_netflix.filmes_moderador">9fe9360107c11010a98ffa9e7c1ed0da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 16:18:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3bef0852aafb40ed9a45aa4fd8ba52c1</sys_id>
+        <sys_metadata>bcacf5eb07f01410a98ffa9e7c1ed072</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_484602_netflix_reviews.x_484602_netflix.filmes_moderador</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_parent display_value="x_484602_netflix_reviews">b0acf5eb07f01410a98ffa9e7c1ed070</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_scope_delete display_value="">090be27f0a4b4b80ae9bb47edbcdc990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_bcacf5eb07f01410a98ffa9e7c1ed072</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_bcacf5eb07f01410a98ffa9e7c1ed072">78acf5eb07f01410a98ffa9e7c1ed075</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 16:18:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

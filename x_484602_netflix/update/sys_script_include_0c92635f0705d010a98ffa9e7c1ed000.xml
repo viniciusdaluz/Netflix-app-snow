@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_484602_netflix.Country</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Country</name>
+        <script><![CDATA[var Country = Class.create();
+Country.prototype = {
+    initialize: function() {},
+
+    _consultaCode: function(nomePais) {
+        try {
+            var s = new sn_ws.SOAPMessageV2('x_484602_netflix.Country', 'CountryInfoServiceSoapBinding.CountryISOCode');
+
+            s.setStringParameterNoEscape('CountryISOCode.sCountryName', nomePais);
+            var response = s.execute();
+            var responseBody = response.getBody();
+            var status = response.getStatusCode();
+
+            if (status != 200) {
+
+                return 'Erro na chamada da API';
+
+            }
+
+            var responseBodyJson = gs.xmlToJSON(responseBody); // TRANSFORMOU EM JSON
+            var resultadoFinal = responseBodyJson['soap:Envelope']['soap:Body']['m:CountryISOCodeResponse']['m:CountryISOCodeResult']; // BR
+
+            return resultadoFinal;
+
+        } catch (ex) {
+            return 'Erro na chamada webservice';
+        }
+    },
+
+
+    _consultaPais: function(codigo) {
+        try {
+            var s = new sn_ws.SOAPMessageV2('x_484602_netflix.Country', 'CountryInfoServiceSoapBinding.FullCountryInfo');
+
+            s.setStringParameterNoEscape('FullCountryInfo.sCountryISOCode', codigo);
+            var response = s.execute();
+            var responseBody = response.getBody();
+            var status = response.getStatusCode();
+
+            var responseBodyJson = gs.xmlToJSON(responseBody);
+			
+			
+            var resultadoFinal = responseBodyJson['soap:Envelope']['soap:Body']['m:FullCountryInfoResponse']['m:FullCountryInfoResult']['m:Languages']['m:tLanguage']['m:sName'];
+
+            return resultadoFinal;
+
+        } catch (ex) {
+            var message = ex.message;
+        }
+    },
+
+    comparaIdioma: function(grFilme) {
+
+        var idiomaFilme = grFilme.getValue('idioma');
+        var paisFilme = grFilme.getValue('pais');
+
+        var arrayIdioma = idiomaFilme.split(', ');
+        var arrayPais = paisFilme.split(', ');
+
+        var arrNovo = [];
+
+        for (var i = 0; i < arrayPais.length; i++) {
+
+            var codigo = this._consultaCode(arrayPais[i]);
+			//var retornoConsultaPais = this_consultaPais('UK');
+
+		
+            if (codigo == "No country found by that name") {
+				gs.info('No country found by that name');
+                var idioma = this._consultaPais(arrayPais[i]);
+				gs.info(idioma);
+                arrNovo.push(idioma);
+            } else if (codigo == 'Erro na chamada da API') {
+                gs.info('Erro na chamada da API');
+            } else if (codigo == 'Erro na chamada webservice') {
+                gs.info('Erro na chamada webservice');
+				
+            } else{
+			
+            var idiomaSoap = this._consultaPais(codigo);
+            arrNovo.push(idiomaSoap);
+			}
+			gs.info('idioma soap:');
+			gs.info(idiomaSoap);
+			gs.info(arrNovo.toString());
+			gs.info(arrayIdioma);
+
+            if ((arrNovo.sort().toString()).toLowerCase() == (arrayIdioma.sort().toString()).toLowerCase()) {
+				gs.info('ENTROU NO IF DA COMPARACAO DE ARRAY');
+				
+                grFilme.setValue("idiomacorreto", true);
+				grFilme.update();
+                return true;
+            } else {
+				gs.info('ENTROU NO ELSE DA COMPARACAO DE ARRAY');
+                grFilme.setValue("idiomacorreto", false);
+				grFilme.update();
+                return false;
+            }
+        }
+    },
+    type: 'Country'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-02 20:04:50</sys_created_on>
+        <sys_id>0c92635f0705d010a98ffa9e7c1ed000</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>Country</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_script_include_0c92635f0705d010a98ffa9e7c1ed000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-04 19:17:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

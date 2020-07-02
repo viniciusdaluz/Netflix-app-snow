@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="d0ae168207c11010a98ffa9e7c1ed09b" sys_domain="global" table="x_484602_netflix_sugestions" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_content</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 16:53:19</sys_created_on>
+            <sys_id>60ae168207c11010a98ffa9e7c1ed0bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_484602_netflix_sugestions" sys_domain="global" view="Default view">d0ae168207c11010a98ffa9e7c1ed09b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 16:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_484602_netflix_sugestions</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 16:53:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0ae168207c11010a98ffa9e7c1ed09b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+            <sys_update_name>sys_ui_section_d0ae168207c11010a98ffa9e7c1ed09b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 16:53:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</application>
+        <file_path/>
+        <instance_id>994d76f2db87f344387021c405961949</instance_id>
+        <instance_name>dev90984</instance_name>
+        <name>sys_ui_section_d0ae168207c11010a98ffa9e7c1ed09b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="d0ae168207c11010a98ffa9e7c1ed09b" sys_domain="global" table="x_484602_netflix_sugestions" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>email_content</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-29 16:53:19</sys_created_on><sys_id>60ae168207c11010a98ffa9e7c1ed0bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_484602_netflix_sugestions" sys_domain="global" view="Default view">d0ae168207c11010a98ffa9e7c1ed09b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-29 16:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_484602_netflix_sugestions</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-29 16:53:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d0ae168207c11010a98ffa9e7c1ed09b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package><sys_policy/><sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope><sys_update_name>sys_ui_section_d0ae168207c11010a98ffa9e7c1ed09b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-29 16:53:19</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-431370504</payload_hash>
+        <record_name>Sugestions</record_name>
+        <reverted_from/>
+        <source>fb12bd2707f01410a98ffa9e7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 16:53:19</sys_created_on>
+        <sys_id>a4ae168207c11010a98ffa9e7c1ed0bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172615a2f100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 16:53:19</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>20ae168244c11010d263d4c73658d4bc</update_guid>
+        <update_guid_history>20ae168244c11010d263d4c73658d4bc:-431370504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 16:53:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>338801815a024dcda9e5577422b2d931</sys_id>
+        <sys_metadata>d0ae168207c11010a98ffa9e7c1ed09b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_parent display_value="Sugestions">d538a4a107415010a98ffa9e7c1ed00b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_scope_delete display_value="">090be27f0a4b4b80ae9bb47edbcdc990</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d0ae168207c11010a98ffa9e7c1ed09b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d0ae168207c11010a98ffa9e7c1ed09b">a4ae168207c11010a98ffa9e7c1ed0bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 16:53:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

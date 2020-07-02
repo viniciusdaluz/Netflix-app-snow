@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Sugestions" max_length="40" name="x_484602_netflix_sugestions" sizeclass="42" type="collection">
+        <element label="email content" max_length="4000" name="email_content" type="html"/>
+        <element label="Genre" max_length="100" name="genre" type="string"/>
+        <element label="Movie" max_length="250" name="movie" type="string"/>
+        <element choice="1" default="portal" label="Suggestion Source" max_length="40" name="origem_da_sugestao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" value="email"/>
+                <element inactive_on_update="false" label="Email" language="pb" value="email"/>
+                <element inactive_on_update="false" label="Portal" language="pb" value="portal"/>
+                <element inactive_on_update="false" label="Portal" value="portal"/>
+            </choice>
+        </element>
+    </element>
+</database>

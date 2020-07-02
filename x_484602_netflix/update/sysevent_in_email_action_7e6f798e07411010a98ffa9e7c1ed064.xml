@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script>email.subject.toLowerCase().indexOf("sugestao") &gt; -1 ||email.subject.toLowerCase().indexOf("sugestão") &gt; -1</condition_script>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Criar sugestao por email</name>
+        <order>20</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+	current.setValue('email_content', email.body_html);
+	current.setValue('origem_da_sugestao', 'email');
+	
+		if(email.body.filme != undefined){
+			current.setValue('movie', email.body.filme);
+		}
+	
+	current.insert();
+	
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 14:54:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e6f798e07411010a98ffa9e7c1ed064</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Criar sugestao por email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sysevent_in_email_action_7e6f798e07411010a98ffa9e7c1ed064</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 17:22:09</sys_updated_on>
+        <table>x_484602_netflix_sugestions</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

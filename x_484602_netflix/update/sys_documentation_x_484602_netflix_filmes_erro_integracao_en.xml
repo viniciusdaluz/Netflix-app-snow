@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="erro_integracao" label="Erro integração" language="en" table="x_484602_netflix_filmes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>erro_integracao</element>
+            <help/>
+            <hint/>
+            <label>Erro integração</label>
+            <language>en</language>
+            <name>x_484602_netflix_filmes</name>
+            <plural>Erro integraçãos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 14:59:53</sys_created_on>
+            <sys_id>710b6e9b0781d010a98ffa9e7c1ed096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Erro integração</sys_name>
+            <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+            <sys_update_name>sys_documentation_x_484602_netflix_filmes_erro_integracao_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 14:59:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

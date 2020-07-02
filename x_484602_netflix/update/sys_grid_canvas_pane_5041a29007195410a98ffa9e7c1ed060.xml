@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Dashboard Netflix - New Tab 2">6df0a25007195410a98ffa9e7c1ed0ff</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 05/06/2020 13:51:06">d441a29007195410a98ffa9e7c1ed05e</portal_widget>
+        <posx>6</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-05 16:51:06</sys_created_on>
+        <sys_id>5041a29007195410a98ffa9e7c1ed060</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>6df0a25007195410a98ffa9e7c1ed0ff</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_5041a29007195410a98ffa9e7c1ed060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-05 17:16:06</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

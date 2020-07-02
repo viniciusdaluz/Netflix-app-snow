@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="data_de_nascimento" label="Data de Nascimento" language="pb" table="x_484602_netflix_atores">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>data_de_nascimento</element>
+            <help/>
+            <hint/>
+            <label>Data de Nascimento</label>
+            <language>pb</language>
+            <name>x_484602_netflix_atores</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-22 14:40:08</sys_created_on>
+            <sys_id>81ec35f3077c1410a98ffa9e7c1ed034</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data de Nascimento</sys_name>
+            <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+            <sys_update_name>sys_documentation_x_484602_netflix_atores_data_de_nascimento_pb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-22 14:40:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

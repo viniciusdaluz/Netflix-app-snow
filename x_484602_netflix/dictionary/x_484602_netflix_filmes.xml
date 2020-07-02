@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Movie" max_length="40" name="x_484602_netflix_filmes" sizeclass="63" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Categories" max_length="40" name="categoria" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Release Date" max_length="40" name="data_de_lancamento" type="glide_date"/>
+        <element label="Erro integração" max_length="250" name="erro_integracao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Writers" max_length="4000" name="escritores" type="string"/>
+        <element attributes="encode_utf8=false" label="Genre" max_length="32" name="genero" reference="x_484602_netflix_generos" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="250" name="idioma" type="string"/>
+        <element label="Language Correct" max_length="40" name="idiomacorreto" read_only="true" type="boolean"/>
+        <element label="imdbRating" max_length="40" name="imdbrating" type="float"/>
+        <element label="Metascore" max_length="40" name="metascore" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="250" name="nome" type="string"/>
+        <element label="nota media" max_length="40" name="nota_media" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="250" name="pais" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="pôster" max_length="250" name="poster" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Awards" max_length="250" name="premios" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Production" max_length="250" name="producao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Synopsis" max_length="4000" name="sinopse" type="string"/>
+        <element label="Sucesso Integração" max_length="40" name="sucesso_integracao" type="boolean"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Filme" language="pb" value="filme"/>
+                <element inactive_on_update="false" label="movie" value="movie"/>
+                <element inactive_on_update="false" label="Série" language="pb" value="serie"/>
+                <element inactive_on_update="false" label="series" value="series"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Website" max_length="250" name="website" type="string"/>
+        <index name="index">
+            <element name="genero"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

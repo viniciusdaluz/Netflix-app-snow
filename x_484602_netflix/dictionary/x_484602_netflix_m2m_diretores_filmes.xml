@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Netflix M2m Diretores Filmes" max_length="40" name="x_484602_netflix_m2m_diretores_filmes" sizeclass="28" type="collection">
+        <element attributes="encode_utf8=false" label="Diretores" max_length="32" name="diretores" reference="x_484602_netflix_diretores" type="reference"/>
+        <element attributes="encode_utf8=false" label="Filmes" max_length="32" name="filmes" reference="x_484602_netflix_filmes" type="reference"/>
+        <index name="index">
+            <element name="diretores"/>
+        </index>
+        <index name="index2">
+            <element name="filmes"/>
+        </index>
+    </element>
+</database>

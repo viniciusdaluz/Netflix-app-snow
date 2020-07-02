@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Netflix - Sugestões">9a64682107415010a98ffa9e7c1ed07f</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 18:52:09</sys_created_on>
+        <sys_id>35a620a107415010a98ffa9e7c1ed0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netflix - Sugestões.Filmes Usuário</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_35a620a107415010a98ffa9e7c1ed0c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:52:09</sys_updated_on>
+        <user_criteria display_value="Filmes Usuário">07755a0907411010a98ffa9e7c1ed0c7</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</application>
+        <file_path/>
+        <instance_id>994d76f2db87f344387021c405961949</instance_id>
+        <instance_name>dev90984</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_35a620a107415010a98ffa9e7c1ed0c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Netflix - Sugestões">9a64682107415010a98ffa9e7c1ed07f</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-27 18:52:09</sys_created_on><sys_id>35a620a107415010a98ffa9e7c1ed0c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Netflix - Sugestões.Filmes Usuário</sys_name><sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package><sys_policy/><sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_35a620a107415010a98ffa9e7c1ed0c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-27 18:52:09</sys_updated_on><user_criteria display_value="Filmes Usuário">07755a0907411010a98ffa9e7c1ed0c7</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-2021770114</payload_hash>
+        <record_name>Netflix - Sugestões.Filmes Usuário</record_name>
+        <reverted_from/>
+        <source>fb12bd2707f01410a98ffa9e7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 18:52:09</sys_created_on>
+        <sys_id>35a620a107415010a98ffa9e7c1ed0c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172577a423c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:52:09</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>7da620a135415010f6091cb6abd75ac4</update_guid>
+        <update_guid_history>7da620a135415010f6091cb6abd75ac4:-2021770114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Netflix - Sugestões.Filmes Usuário">486aa06507415010a98ffa9e7c1ed0e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 19:08:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>a344f56676894384abc2fa41e455e444</sys_id>
+        <sys_metadata>35a620a107415010a98ffa9e7c1ed0c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netflix - Sugestões.Filmes Usuário</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_parent display_value="">9a64682107415010a98ffa9e7c1ed07f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_scope_delete display_value="">090be27f0a4b4b80ae9bb47edbcdc990</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_35a620a107415010a98ffa9e7c1ed0c2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_35a620a107415010a98ffa9e7c1ed0c2">35a620a107415010a98ffa9e7c1ed0c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 19:08:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-07-02 14:02:32">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-05 13:45:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>02d6fdd407955410a98ffa9e7c1ed0d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PA Netflix - Reviews</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_portal_page_02d6fdd407955410a98ffa9e7c1ed0d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-05 16:51:39</sys_updated_on>
+        <title>PA Netflix - Reviews</title>
+        <user/>
+        <view>pa_dashboard_netflix_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Netflix - Reviews">02d6fdd407955410a98ffa9e7c1ed0d1</page>
+                <summary>Tempo médio de cada Review</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                <sys_id>04858a1007d55410a98ffa9e7c1ed087</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>00858a1007d55410a98ffa9e7c1ed089</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>04858a1007d55410a98ffa9e7c1ed088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>4c858a1007d55410a98ffa9e7c1ed088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>88858a1007d55410a98ffa9e7c1ed087</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value>67e442dc07955410a98ffa9e7c1ed0a2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>88858a1007d55410a98ffa9e7c1ed088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>8c858a1007d55410a98ffa9e7c1ed089</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>c0858a1007d55410a98ffa9e7c1ed089</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value>Tempo médio de cada Review</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/06/2020 11:49:51">04858a1007d55410a98ffa9e7c1ed087</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 14:49:51</sys_created_on>
+                        <sys_id>c4858a1007d55410a98ffa9e7c1ed088</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 14:49:51</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Netflix - Reviews">02d6fdd407955410a98ffa9e7c1ed0d1</page>
+                <summary>TMA de REVIEW por Grupo Resolvedor</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                <sys_id>3366a61407195410a98ffa9e7c1ed02d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>3366a61407195410a98ffa9e7c1ed02e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>7f66a61407195410a98ffa9e7c1ed02d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>b366a61407195410a98ffa9e7c1ed02d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value>2c666e1407195410a98ffa9e7c1ed078</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>b766a61407195410a98ffa9e7c1ed02e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value>TMA de REVIEW por Grupo Resolvedor</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>bb66a61407195410a98ffa9e7c1ed02d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>f366a61407195410a98ffa9e7c1ed02e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>f766a61407195410a98ffa9e7c1ed02d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 05/06/2020 14:13:45">3366a61407195410a98ffa9e7c1ed02d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 17:13:45</sys_created_on>
+                        <sys_id>fb66a61407195410a98ffa9e7c1ed02e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 17:13:45</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Netflix - Reviews">02d6fdd407955410a98ffa9e7c1ed0d1</page>
+                <summary>Reviews por filme</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                <sys_id>4d98391807955410a98ffa9e7c1ed007</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>0198391807955410a98ffa9e7c1ed009</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>0598391807955410a98ffa9e7c1ed008</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>0998391807955410a98ffa9e7c1ed009</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>4d98391807955410a98ffa9e7c1ed008</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>8998391807955410a98ffa9e7c1ed008</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>c198391807955410a98ffa9e7c1ed009</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value>Reviews por filme</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>c598391807955410a98ffa9e7c1ed008</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2020 10:53:24">4d98391807955410a98ffa9e7c1ed007</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:53:24</sys_created_on>
+                        <sys_id>cd98391807955410a98ffa9e7c1ed007</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:53:24</sys_updated_on>
+                        <value>4b88f11807955410a98ffa9e7c1ed09d</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Netflix - Reviews">02d6fdd407955410a98ffa9e7c1ed0d1</page>
+                <summary>Tempo médio de cada Review (média)</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                <sys_id>aaa802d007d55410a98ffa9e7c1ed08d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>22a802d007d55410a98ffa9e7c1ed08f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value>Tempo médio de cada Review (média)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>26a802d007d55410a98ffa9e7c1ed08e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>2ea802d007d55410a98ffa9e7c1ed08d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value>5d98ca9007d55410a98ffa9e7c1ed04f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>62a802d007d55410a98ffa9e7c1ed08e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>66a802d007d55410a98ffa9e7c1ed08f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>6ea802d007d55410a98ffa9e7c1ed08e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>aaa802d007d55410a98ffa9e7c1ed08e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 05/06/2020 12:03:41">aaa802d007d55410a98ffa9e7c1ed08d</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 15:03:41</sys_created_on>
+                        <sys_id>e6a802d007d55410a98ffa9e7c1ed08e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 15:03:41</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Netflix - Reviews">02d6fdd407955410a98ffa9e7c1ed0d1</page>
+                <summary>Reviews dos últimos 30 dias</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                <sys_id>d079b95807955410a98ffa9e7c1ed01a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>1079b95807955410a98ffa9e7c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>5479b95807955410a98ffa9e7c1ed01a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value>7269b95807955410a98ffa9e7c1ed081</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>5879b95807955410a98ffa9e7c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value>Reviews dos últimos 30 dias</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>5c79b95807955410a98ffa9e7c1ed01a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>9479b95807955410a98ffa9e7c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>9879b95807955410a98ffa9e7c1ed01a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>9c79b95807955410a98ffa9e7c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/06/2020 10:57:10">d079b95807955410a98ffa9e7c1ed01a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:57:10</sys_created_on>
+                        <sys_id>d079b95807955410a98ffa9e7c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:57:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Netflix - Reviews">02d6fdd407955410a98ffa9e7c1ed0d1</page>
+                <summary>SLA Review Violado</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                <sys_id>d15e5edc07d55410a98ffa9e7c1ed03c</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>195e521007195410a98ffa9e7c1ed083</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>515e521007195410a98ffa9e7c1ed084</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value>SLA Review Violado</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>555e521007195410a98ffa9e7c1ed083</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>5d5e521007195410a98ffa9e7c1ed082</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value>434eda1807d55410a98ffa9e7c1ed08c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>915e521007195410a98ffa9e7c1ed083</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>955e521007195410a98ffa9e7c1ed084</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>9d5e521007195410a98ffa9e7c1ed083</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/06/2020 13:38:20">d15e5edc07d55410a98ffa9e7c1ed03c</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 16:38:20</sys_created_on>
+                        <sys_id>d95e521007195410a98ffa9e7c1ed083</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 16:38:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Netflix - Reviews">02d6fdd407955410a98ffa9e7c1ed0d1</page>
+                <summary>Lista de Reviews que faltam aprovar</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                <sys_id>f617b1d407955410a98ffa9e7c1ed0b6</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>3a17b1d407955410a98ffa9e7c1ed0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>7617b1d407955410a98ffa9e7c1ed0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>7a17b1d407955410a98ffa9e7c1ed0b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value>6e34f19407955410a98ffa9e7c1ed065</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>b217b1d407955410a98ffa9e7c1ed0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>be17b1d407955410a98ffa9e7c1ed0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value>Lista de Reviews que faltam aprovar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>f217b1d407955410a98ffa9e7c1ed0b8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>fa17b1d407955410a98ffa9e7c1ed0b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2020 10:46:58">f617b1d407955410a98ffa9e7c1ed0b6</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-05 13:46:58</sys_created_on>
+                        <sys_id>fe17b1d407955410a98ffa9e7c1ed0b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-05 13:46:58</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

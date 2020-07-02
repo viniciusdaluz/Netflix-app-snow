@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Netflix - Review de Filmes">3c04de8507411010a98ffa9e7c1ed0e9</catalog_item>
+        <catalog_variable>IO:d64a96c907411010a98ffa9e7c1ed00c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 14:23:59</sys_created_on>
+        <sys_id>2e8f9e8d07411010a98ffa9e7c1ed072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>avaliacao</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2e8f9e8d07411010a98ffa9e7c1ed072</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 14:23:59</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Avaliação obrigatória por nota baixa ">5deed68d07411010a98ffa9e7c1ed0b3</ui_policy>
+        <variable>avaliacao</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

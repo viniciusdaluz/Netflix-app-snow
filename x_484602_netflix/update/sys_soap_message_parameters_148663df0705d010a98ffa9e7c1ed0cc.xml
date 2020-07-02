@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="INSERT_OR_UPDATE">
+        <name>FullCountryInfo.sCountryISOCode</name>
+        <soap_function display_value="CountryInfoServiceSoapBinding.FullCountryInfo">eed06fdb0705d010a98ffa9e7c1ed0a6</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-02 19:19:45</sys_created_on>
+        <sys_id>148663df0705d010a98ffa9e7c1ed0cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FullCountryInfo.sCountryISOCode</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_148663df0705d010a98ffa9e7c1ed0cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-02 19:19:56</sys_updated_on>
+        <type>string</type>
+        <value>BR</value>
+    </sys_soap_message_parameters>
+</record_update>

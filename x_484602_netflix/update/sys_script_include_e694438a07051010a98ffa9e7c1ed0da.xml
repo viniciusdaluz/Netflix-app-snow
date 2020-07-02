@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_484602_netflix.omdb</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>omdb</name>
+        <script><![CDATA[var omdb = Class.create();
+omdb.prototype = {
+    initialize: function() {
+        this.api_key = gs.getProperty("x_484602_netflix.apikey");
+    },
+
+    _consultaFilmes: function(nomeDoFilme) {
+
+        try {
+            var r = new sn_ws.RESTMessageV2('x_484602_netflix.OMdb', 'Get Movies');
+            r.setStringParameterNoEscape('titulo', encodeURI(nomeDoFilme));
+            r.setStringParameterNoEscape('api_key', this.api_key);
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+            return {
+                status: httpStatus,
+                body: responseBody
+            };
+
+
+
+        } catch (ex) {
+            var message = {
+                Error: ex.message
+            };
+
+            message = JSON.stringfy(message);
+            return {
+                status: 0,
+                body: message
+            };
+
+        }
+    },
+
+    insereFilme: function(nomeDoFilme, sysId) {
+
+        var grFilme = new GlideRecord('x_484602_netflix_filmes');
+		grFilme.get(sysId);
+		
+        var retornoConsultaFilme = this._consultaFilmes(nomeDoFilme);
+
+        if (retornoConsultaFilme.status == 200) {
+
+            var retornoFilme = JSON.parse(retornoConsultaFilme.body);
+            if (retornoFilme.Response == 'True') {
+                //var grFilme = new GlideRecord('x_484602_netflix_filmes'); MEXI NISSO SE DER ERRADO FOI AQUI A CAGADA
+
+                var dataCorreta = (retornoFilme.Released).split(' ');
+                var meses = {
+                    "jan": "01",
+                    "feb": "02",
+                    "mar": "03",
+                    "apr": "04",
+                    "may": "05",
+                    "jun": "06",
+                    "jul": "07",
+                    "aug": "08",
+                    "sep": "09",
+                    "oct": "10",
+                    "nov": "11",
+                    "dec": "12",
+                };
+
+                var dataCorrigida = dataCorreta[2] + "-" + meses[dataCorreta[1].toLowerCase()] + "-" + dataCorreta[0];
+                //grFilme.get(sysId);   MEXI NISSO SE DER ERRADO FOI AQUI A CAGADA
+
+                if (retornoFilme.Title) {
+                    grFilme.setValue('nome', retornoFilme.Title);
+                }
+                if (retornoFilme.Poster) {
+                    grFilme.setValue('poster', retornoFilme.Poster);
+                }
+                if (retornoFilme.Website) {
+                    grFilme.setValue('website', retornoFilme.Website);
+                }
+                if (retornoFilme.Language) {
+                    grFilme.setValue('idioma', retornoFilme.Language);
+                }
+                if (retornoFilme.Plot) {
+                    grFilme.setValue('sinopse', retornoFilme.Plot);
+                }
+                if (retornoFilme.Writer) {
+                    grFilme.setValue('escritores', retornoFilme.Writer);
+                }
+                if (retornoFilme.Awards) {
+                    grFilme.setValue('premios', retornoFilme.Awards);
+                }
+                //if (retornoFilme.Released) {
+                grFilme.setValue('data_de_lancamento', dataCorrigida);
+                // }
+                if (retornoFilme.Country) {
+                    grFilme.setValue('pais', retornoFilme.Country);
+                }
+                if (retornoFilme.Type) {
+                    grFilme.setValue('type', retornoFilme.Type);
+                }
+                if (retornoFilme.Production) {
+                    grFilme.setValue('producao', retornoFilme.Production);
+                }
+                if (retornoFilme.imdbRating) {
+                    grFilme.setValue('imdbrating', retornoFilme.imdbRating);
+                }
+                if (retornoFilme.Metascore) {
+                    grFilme.setValue('metascore', retornoFilme.Metascore);
+                }
+                if (retornoFilme.Rated) {
+                    grFilme.setValue('categoria', retornoFilme.Rated);
+                }
+                if (retornoFilme.Genre) {
+
+                    var generos = retornoFilme.Genre.split(', ');
+                    var genero;
+                    var idsGenero = [];
+                    for (genero in generos) {
+
+                        var tableGeneros = new GlideRecord('x_484602_netflix_generos');
+                        tableGeneros.addQuery('nome', generos[genero]);
+                        tableGeneros.query();
+                        if (tableGeneros.next()) {
+                            idsGenero.push(tableGeneros.getValue('sys_id'));
+
+                        } else {
+                            var generoNovo = new GlideRecord('x_484602_netflix_generos');
+                            generoNovo.initialize();
+                            generoNovo.setValue('nome', generos[genero]);
+                            var id = generoNovo.insert();
+                            idsGenero.push(id);
+                        }
+
+                    }
+                    grFilme.setValue('genero', idsGenero);
+                }
+
+                if (retornoFilme.Director) {
+
+                    var diretores = retornoFilme.Director.split(', ');
+                    var diretor;
+                    for (diretor in diretores) {
+                        var tableDiretores = new GlideRecord('x_484602_netflix_diretores');
+                        tableDiretores.addQuery('nome', diretores[diretor]);
+                        tableDiretores.query();
+                        var idDiretores;
+                        if (tableDiretores.next()) {
+                            idDiretores = tableDiretores.getValue('sys_id');
+                        } else {
+
+                            var diretorNovo = new GlideRecord('x_484602_netflix_diretores');
+                            diretorNovo.initialize();
+                            diretorNovo.setValue('nome', diretores[diretor]);
+
+                            idDiretores = diretorNovo.insert();
+                        }
+                        var tableM2mDir = new GlideRecord('x_484602_netflix_m2m_diretores_filmes');
+                        tableM2mDir.initialize();
+                        tableM2mDir.setValue('diretores', idDiretores);
+                        tableM2mDir.setValue('filmes', sysId);
+
+                        tableM2mDir.insert();
+
+                    }
+                }
+
+                if (retornoFilme.Actors) {
+
+                    var atores = retornoFilme.Actors.split(', ');
+                    var ator;
+                    for (ator in atores) {
+                        var tableAtores = new GlideRecord('x_484602_netflix_atores');
+                        tableAtores.addQuery('nome', atores[ator]);
+                        tableAtores.query();
+                        var idAtores;
+                        if (tableAtores.next()) {
+                            idAtores = tableAtores.getValue('sys_id');
+
+                        } else {
+
+                            var atorNovo = new GlideRecord('x_484602_netflix_atores');
+                            atorNovo.initialize();
+                            atorNovo.setValue('nome', atores[ator]);
+                            idAtores = atorNovo.insert();
+                        }
+
+                        var tableM2mAct = new GlideRecord('x_484602_netflix_m2m_atores_filmes');
+                        tableM2mAct.initialize();
+                        tableM2mAct.setValue('atores', idAtores);
+                        tableM2mAct.setValue('filmes', sysId);
+
+                        tableM2mAct.insert();
+
+                    }
+                }
+
+                grFilme.setValue('sucesso_integracao', true);
+
+
+                grFilme.update();
+                return {
+                    status: true,
+                    message: ''
+                };
+            } else {
+				var mensagem = gs.getMessage(retornoFilme.Error);
+				grFilme.setValue('erro_integracao', mensagem);
+				grFilme.update();
+                return {
+                    status: false,
+                    message: retornoFilme.Error
+                };
+            }
+        } else {
+			grFilme.setValue('erro_integracao', retornoFilme.Error);
+            var objErro = JSON.parse(retornoFilme.body);
+			grFilme.update();
+            return {
+                status: false,
+                message: objErro.Error
+            };
+        }
+    },
+
+    type: 'omdb'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 19:51:15</sys_created_on>
+        <sys_id>e694438a07051010a98ffa9e7c1ed0da</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>omdb</sys_name>
+        <sys_package display_value="Netflix" source="x_484602_netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Netflix">3712392707f01410a98ffa9e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_script_include_e694438a07051010a98ffa9e7c1ed0da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-02 18:18:44</sys_updated_on>
+    </sys_script_include>
+</record_update>
